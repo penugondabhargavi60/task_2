@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chitti's Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.2rem; }
+    .social-icons a { margin-right: 10px; }
+    section { margin-top: 80px; padding: 50px 0; }
+    footer { margin-top: 50px; padding: 20px 0; text-align: center; background-color: #343a40; color: #fff; }
+    html { scroll-behavior: smooth; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    section { animation: fadeIn 1s ease-in-out; }
+    .about-text { font-family: Arial, sans-serif; font-size: 1.5rem; color: #333; }
+    .navbar { background-color: #007bff; }
+    .nav-link { color: #fff; }
+    .nav-link:hover { color: #ccc; }
+    .logo { display: block; margin: auto; }
+    #about { background-color: #f8f9fa; }
+    #skills { background-color: #e9ecef; }
+    #projects { background-color: #dee2e6; }
+    #resume { background-color: #ced4da; }
+    #contact { background-color: #adb5bd; }
+  </style>
+</head>
+<body>
+  <header style="background-color: #3982ca; padding: 10px 0;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="logo.png" alt="Logo" class="logo" width="200px" height="90px">
+        </div>
+        <div class="col-lg-6">
+          <nav>
+            <ul class="nav justify-content-end">
+              <li class="nav-item"><a class="nav-link" href="#home" style="color: #fff;">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about" style="color: #fff;">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#skills" style="color: #fff;">Skills</a></li>
+              <li class="nav-item"><a class="nav-link" href="#projects" style="color: #fff;">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="#resume" style="color: #fff;">Resume</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact" style="color: #fff;">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container"></div>
+</body>
+</html>
+
+<div class="container">
+  <header class="text-center">
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <h1>Hi all, I'm Bhargavi <span class="wave">👋</span></h1>
+        <p>A passionate web developer</p>
+      </div>
+    </div>
+  </header>
+</section>
+
+<section id="about">
+  <div class="row">
+    <div class="col-lg-6">
+      <h2>About Me</h2>
+      <p class="about-text">I'm passionate about leveraging my skills to contribute meaningfully to the tech industry. I am continuously exploring new technologies and frameworks to stay updated with the latest trends in software development. My goal is to become a proficient full-stack developer capable of creating innovative and impactful solutions.</p>
+    </div>
+    <div class="col-lg-6">
+      <img src="1.jpg" alt="about Photo" class="img-fluid">
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="skills.jpg" alt="Skills Image" class="img-fluid">
+      </div>
+      <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+        <h2 class="text-center mb-4">Technical Skills</h2>
+        <ul>
+          <li class="mb-2"><i></i> C</li>
+          <li class="mb-2"><i></i> Python</li>
+          <li class="mb-2"><i></i> HTML, CSS, Bootstrap</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">voice assistent for disable people</h5>
+            <p class="card-text">This system designs to be used efficiently on desktops.Personal assistent software improves user productivity by managing routine tasks of the user.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title"> Health Care Management System</h5>
+            <p class="card-text">The Real time Web Application Where we can book an appointment and also it used to
+              donate and Receive Blood.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Community Service</h5>
+            <p class="card-text">As part of this project we provided the health hygiene and career guidence for the students who are in and below 10th standard.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="resume">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="mb-4">My Resume</h2>
+        <p class="lead mb-4">Download my resume to learn more about my skills and experience.</p>
+        <a href="resume\Bhargavi_Resume.pdf" target="_blank" class="btn btn-primary btn-lg" download>Download Resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="contact_image.jpg" alt="Contact Image" class="img-fluid">
+      </div>
+      <div class="col-lg-6">
+        <div class="contact-details">
+          <h2>Contact Me</h2>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-envelope"></i> Email: penugondabhargavi60@gmail.com</li>
+            <li><i class="fas fa-phone"></i> Phone: +1234567890</li>
+            <li><i class="fas fa-map-marker-alt"></i> Address: Kurnool</li>
+          </ul>
+          <div class="social-icons">
+            <a href="https://github.com/penugondabhargavi60" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/bhargavi-penugonda-992640287/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p>&copy; 2024 Bhargavi Penugonda. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
